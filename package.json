@@ -1,0 +1,29 @@
+{
+  "name": "@tanshio/eslint-config",
+  "version": "1.0.0",
+  "description": "oreore-eslint",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanshio/eslint-config.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "tanshio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanshio/eslint-config/issues"
+  },
+  "homepage": "https://github.com/tanshio/eslint-config#readme",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "eslint": "^3.16.1"
+  },
+  "scripts": {
+    "test": "node test/index.js && eslint --max-warnings 0 -c index.js ."
+  }
+}
