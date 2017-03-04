@@ -1,11 +1,8 @@
 {
   "name": "@tanshio/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "oreore-eslint",
   "main": "index.js",
-  "scripts": {
-    "test": "ava -v"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tanshio/eslint-config.git"
